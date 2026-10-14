@@ -1,0 +1,27 @@
+# ===== 图片 / 成品 / 压缩包：体积大，不进 Git（放飞书云盘或项目空间）=====
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.heic
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ===== 系统 / 临时 =====
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+*.tmp
+*.swp
+~$*
+
+# ===== 本地凭证，绝不提交 =====
+*.token
+.env
